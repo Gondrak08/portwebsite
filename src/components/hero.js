@@ -16,7 +16,7 @@ export class hero extends Component {
                 <div className="Hero">
                    <div className="HeroGroup">
                        <h1>Vitor Alecirm</h1>
-                       <p>Front end developer</p>
+                       <p>Front-end developer</p>
                        <Link to="#projects">Projects</Link>
                             <div className="Logos">
                                 <img src={Jslogo} alt="" width="50" />
