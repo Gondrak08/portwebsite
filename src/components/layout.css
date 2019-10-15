@@ -1,0 +1,43 @@
+body{
+    font-family: "Roboto", sans-serif !important;
+    font-weight:  400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+}
+div{
+    display: block;
+  }
+  
+
+
+.project-title h2{  
+        font-size: 3rem; 
+        font-weight: 700; 
+        background-image: linear-gradient(to right, #64495E, #4C5F9A);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: 2px;
+        transition: all .2s;
+        margin-bottom: 8rem;
+        }
+        @media (max-width: 56.25em) {
+        .project-title h2 {
+            font-size: 3rem; } }
+        @media (max-width: 37.5em) {
+         .project-title h2 {
+            font-size: 2.5rem; } }
+         .project-title h2:hover {
+          transform: skewX(2deg) skewY(1deg);
+          text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+    
+    
+    
+.CardGroup{
+    display: flow-root;
+    grid-gap: 40px;
+}
+    
