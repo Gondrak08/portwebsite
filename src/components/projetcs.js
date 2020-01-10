@@ -6,6 +6,8 @@ import Foodsearch from '../images/foodsearch.png'
 import Landingpage from '../images/landingpage.png'
 import Webresort from '../images/webresort.jpg'
 import Asteroid from '../images/asteroid.png'
+import Radio from '../images/Radio.png'
+import Phone from '../images/phoneshop.png'
 
 export class projects extends Component {
     render() {
@@ -25,6 +27,22 @@ export class projects extends Component {
                             lone="https://gondrak08.github.io/bakery/"
                             ltwo="https://github.com/Gondrak08/bakery"
                         /> */}
+                         <Card 
+                            image={Phone}
+                            title="A e-commerce phone webshop"
+                            subtitle="Webapp"
+                            text="A demo website made for a e-commerce. This project use Reactjs, Bootstrap and paypal"
+                            lone="https://github.com/Gondrak08/cellphonestore"
+                            ltwo="https://elegant-volhard-dae191.netlify.com/"
+                        /> 
+                         <Card 
+                            image={Radio}
+                            title="Rock Radio online"
+                            subtitle="Website"
+                            text="A simple web-radio player. This project use Bootstrap and javascript"
+                            lone="https://github.com/Gondrak08/radio-player"
+                            ltwo="https://elated-nobel-8099f7.netlify.com"
+                        />
                          <Card 
                             image={Bakery}
                             title="Padaria dona Chica"
